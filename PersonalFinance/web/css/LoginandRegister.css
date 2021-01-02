@@ -1,0 +1,15 @@
+.superbox{
+    position: relative;
+    top:100px;
+}
+.word{
+    line-height: 120px;
+}
+.login input{
+    background-color: #627bc9;
+    color:snow;
+    border-radius: 10px;
+    border:0;
+    width: 40px;
+    font-weight: bold;
+}

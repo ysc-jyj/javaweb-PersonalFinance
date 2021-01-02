@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color:black;
+}
+img{
+    border-radius: 100%;
+}
+input{
+    outline: none;
+}
+
+.superbox{
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    border-radius: 15px;
+}
+h2{
+    font-weight: bold;
+    color: #627bc9;
+    padding: 20px 0 20px 0;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
+.right{
+    float: right;
+    width: 300px;
+    hight:inherit;
+    border-left: 1px solid gainsboro ;
+}
+.it_aside .it_aside_fixed .info p{
+     text-align: center;
+     margin-bottom: 20px;
+ }
+.it_aside .it_aside_fixed .headshot>img{
+    margin-top: 20px;
+    position: relative;
+    left: 100px;
+}
+.it_aside .it_aside_fixed .info{
+    margin-top: 30px;
+}
+.left{
+    position: relative;
+    left: 30px;
+}
+.clear {
+    clear: both
+}
+
+li {
+    display: inline;
+}
+
+.head {
+    line-height: 70px;
+    /*background-color:#627bc9;*/
+    box-shadow:0 3px 3px 3px  gainsboro;
+}
+
+.logo, .head_nav, .head_user {
+    display: inline-block;
+}
+
+.hidden{
+    display:none;
+}
+
+.head .container .head_area a:hover{
+    color:#627bc9;
+}
+.head .container .head_area .head_nav{
+     font-family:"Microsoft YaHei UI";
+    font-weight: bolder;
+     font-size: 17px;
+     margin-left: 100px;
+ }
+.head .container .head_area .head_nav ul li,.head .container .head_area .head_nav ul li a{
+    height: 70px;
+    padding: 25px 10px 25px 10px;
+}
+
+.head .container .head_area .head_user{
+    float: right;
+    font-size: 13px;
+}
+.head .container .head_area .head_user span{
+    overflow: hidden;
+}
+
+.loginbox{
+    width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+.loginbox span a{
+    color: #627bc9;
+}
+.loginbox .zhanghao{
+    margin:30px 0 30px 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+.loginbox .zhanghao #email{
+    margin-bottom: 20px;
+}
+.loginbox .zhanghao input{
+    height: 25px;
+    
+}
+.login{
+    display: inline-block;
+
+}
+
+.swiper-area {
+    position: relative;
+    margin-top: 180px;
+}
+.swiper-area .list {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.swiper-area .list .bg {
+    position: absolute;
+    left: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-area .list .bg .spic {
+    position: absolute;
+    left: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.bg.active {
+    z-index: 10;
+}
+
+.btn {
+    width: 25px;
+    height: 50px;
+    background-color: rgba(219, 219, 219, 0.4);
+    color: white;
+    border: 0;
+    outline: 0;
+    position: absolute;
+    top: 150px;
+    z-index: 100;
+}
+
+#goPre {
+    left: 0;
+    border-radius: 0 25px 25px 0;
+}
+
+#goNext {
+    right: 0;
+    border-radius: 25px 0 0 25px;
+}

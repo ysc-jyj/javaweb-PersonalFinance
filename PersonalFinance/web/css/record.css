@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+.record .top{
+	margin: 0 0 20px 0;
+	font-size: 17px;
+}
+.record .top .type{
+	padding-left: 15px;
+	padding-right: 80px ;
+}
+.record .top .type,.record .top .way{
+	display: inline;
+}
+.record .top .type #spending,.record .top .type #income{
+	position: relative;
+	left: 30px;
+	
+}
+.hidden{
+	display:none;
+}
+.table{
+	top:500px;
+	border: 1px;
+
+}
+table{
+	border-collapse: collapse;
+
+}
+td{
+	width: 100px;
+	text-align: center;
+	height: 30px;
+	border: gainsboro solid 1px;
+}
+td>a:hover{
+	color: red;
+}
+.title{
+	background-color: #F9f7E8;
+	border: gainsboro solid 1px;
+}
+.btnAdd{
+	margin-top: 20px;
+	width: 80px;
+	height: 40px;
+	background-color: #627bc9;
+	color: snow;
+	border: 0;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 17px;
+}
+.btnAdd:hover{
+	box-shadow: 1px 1px 1px 1px #c7d0ec;
+}
+.pageTool{
+	line-height: 80px;
+	margin-left: 160px;
+}
+.pageTool>a{
+	color:#627bc9;
+}
+.right{
+	height: 513px;
+}
